@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://crm.hmdhealthcare.com:3000/api/web",
+  baseURL: "https://crm.hmdhealthcare.com:3000/api/web",
 });
 
 api.interceptors.request.use((config) => {
